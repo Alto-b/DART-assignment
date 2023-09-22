@@ -8,7 +8,7 @@ void main(){
   print("enter");
   String userInput1=stdin.readLineSync() ?? "";
   var mark=double.parse(userInput1);
-  if(mark>90)
+  if(mark>90 && mark<=100)
     print("A");
   else if(mark>=80 && mark<=89)
     print("B");

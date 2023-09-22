@@ -9,6 +9,6 @@ void main(){
   var num1=int.parse(userInput1);
   print("enter 2nd number");
   String userInput2=stdin.readLineSync() ?? "";
-  var num2=int.parse(userInput2);
+  var num2=double.parse(userInput2);
   print("the sum is ${num1+num2}");
 }

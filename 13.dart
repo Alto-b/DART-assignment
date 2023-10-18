@@ -11,10 +11,11 @@ void main(){
   for(i=0;i<size;i++){
     array.add(stdin.readLineSync()!);
   }
+  //reverse the array
 for(i=array.length-1;i>=0;i--){
   reverse.add(array[i]);
 }
-//print(reverse);
+//printnreverse
 if(array.join()==reverse.join()){
   print("palindrome");}
   else{
